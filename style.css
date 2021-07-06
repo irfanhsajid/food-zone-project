@@ -101,15 +101,18 @@
 }
 
 .recipy-text h2{
-    color: #534d4d;
+    
    padding-bottom: 2%;
     font-size: 25px;
 
 }
 .recipy-text p{
    line-height: 20px;
-   font-size: 17px;
+   font-size: 18px;
+   letter-spacing: 1px;
+   color: #534d4d;
 }
+
 /* recipy section starts here */
 .recipy-section{
     display: flex;
@@ -120,10 +123,10 @@
 }
 .food-items{
     width: 30%;
-    border-radius: 15px;
-   box-shadow: 10px 10px 40px #b1afaf;
-  padding: 5px;
-  margin-left: 2.5%;
+     border-radius: 15px;
+     box-shadow: 10px 10px 40px #b1afaf;
+    padding: 5px;
+     margin-left: 2.5%;
     margin-right: 2.5%;
     text-align: center;
 }
@@ -141,8 +144,57 @@
 }
 .food-items p{
     padding: 2%;
+    color: #344949;
     font-family: 'Bona Nova', serif;
     line-height:20px ;
-    font-weight: 450;
+    font-weight: 500;
     
 }
+
+/* recipy section ends here */
+
+/* Social Media Traffics Info Starts */
+.social-media{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    display: flex;
+    margin-left:10%;
+    margin-right:10%;
+    box-shadow: 10px 10px 40px #c2bfbf;
+    padding: 4%;
+    border-radius: 8px;
+}
+.traffics{
+    width:30%;
+    text-align: center;
+    margin-left: 3%;
+
+}
+.social-media h1{
+    color: #5e5c5c;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1200;
+}
+.social-media p{
+    color: #354747;
+    font-size: 15px;
+}
+/* social media traffic section ends */
+
+/* footer section */
+.footer{
+    margin-top:70px ;
+    margin-bottom: 5px;
+    background-color: #0d1520;
+    text-align: center;
+    padding: 20px;
+}
+.footer h1,p{
+    color: #cacaca;
+
+}
+.ihs{
+    padding-top:.5%;
+    color: #9e9a9a;
+}
+/* footer ends here.*/
