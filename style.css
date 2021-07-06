@@ -17,8 +17,6 @@
 /* top section starts here */
 .top-section{
     display: flex;
-    
-  
 }
 
 .top-text{
@@ -93,4 +91,58 @@
 }
 
 /* mid-section ends here */
+/* available recipy text */
+.recipy-text{
+   
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    
+}
 
+.recipy-text h2{
+    color: #534d4d;
+   padding-bottom: 2%;
+    font-size: 25px;
+
+}
+.recipy-text p{
+   line-height: 20px;
+   font-size: 17px;
+}
+/* recipy section starts here */
+.recipy-section{
+    display: flex;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-bottom: 50px;
+   
+}
+.food-items{
+    width: 30%;
+    border-radius: 15px;
+   box-shadow: 10px 10px 40px #b1afaf;
+  padding: 5px;
+  margin-left: 2.5%;
+    margin-right: 2.5%;
+    text-align: center;
+}
+.food-items img{
+    width:95% ;
+    margin-top: 2%;
+   
+   
+}
+.food-items h1{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+.food-items p{
+    padding: 2%;
+    font-family: 'Bona Nova', serif;
+    line-height:20px ;
+    font-weight: 450;
+    
+}
