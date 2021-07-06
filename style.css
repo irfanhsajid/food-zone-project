@@ -181,6 +181,127 @@
 }
 /* social media traffic section ends */
 
+/* premium membershipsection starts */
+.membership-form{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    /* background-color: #ecf0f3; */
+    background-image: url(shapes/7-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-form{
+    width: 310px;
+    height: 500px;
+    background-color:#ecf0f3;
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px #cbced1,
+    -10px -10px 15px  white;
+}
+
+.logo{
+ font-size: 1.3em;
+ font-weight: bold;
+ text-align: center;
+ letter-spacing: 4px;
+ margin-top: 40px;
+ border: 1px solid orange;
+ margin-right: 1.7em;
+ margin-left: 1.7em;
+ background-color:#282d46;
+ border-radius: 30px;
+ padding: 8px 0;
+ box-shadow: 2px 5px 10px #f77162,
+ -2px -5px 10px #F95431;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-top: 20px;
+   font-weight: 700;
+   color: #2f3d38;
+}
+.sub-title{
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color:  #2f3d38;
+}
+
+.fields{
+    width: 100%;
+    padding: 50px 10px 10px 10px;
+    margin-left: 18px;
+}
+.fields input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #555;
+    padding: 20px 60px 20px 15px;
+}
+.user-input,.password-input{
+    margin-bottom: 20px;
+    border-radius:20px ;
+    box-shadow: inset 8px 8px 15px #cbced1,
+    inset -8px -8px 15px  white;
+}
+.btn{
+    margin-left: 80px;
+    margin-right: 80px;
+    padding:8px 10px;
+}
+
+.sign-in{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    background:#F95431;
+    cursor: pointer;
+    transition: .8s ease-in-out;
+    font-weight: 500;
+
+}
+.sign-in:hover{
+    background-color: black;
+    color: #F95431;
+    font-size: 1.2em;
+    
+}
+.link{
+margin-left: 65px;
+margin-top: 20px;
+}
+.link a{
+    text-decoration: none;
+  margin-top: 150px;
+  color: #555;
+  font-size: 15px;
+  
+}
+.link a:hover{
+    color: red;
+    transition: .7s ease;
+   
+}
+.link p{
+    margin-left: 84px;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* premium membershipsection ends here */
+
+
 /* footer section */
 .footer{
     margin-top:70px ;
